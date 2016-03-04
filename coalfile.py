@@ -2,7 +2,7 @@ from coal import CoalFile
 from util import git_clone, download, unzip, default_cmake_build, cp
 from os import path
 
-class RwqueueFile(CoalFile):
+class GlmFile(CoalFile):
     url = "https://github.com/g-truc/glm.git"
     exports = ["include"]
     def prepare(self):
